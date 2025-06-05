@@ -1,5 +1,16 @@
 function findLargest(a, b, c) {
-  //your code here
+  let maxi = -Infinity;
+	if(a > maxi){
+		maxi = a;
+	}
+	if(b > maxi){ 
+		maxi = b;
+	}
+	if(c > maxi){
+		maxi = c;
+	}
+
+	return maxi;
 }
 
 const num1 = parseInt(prompt("Enter First Number."));
